@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <link rel="stylesheet" href="cadastro2.css">
+    <link rel="icon" href="logo-braba.ico" type="imagen/x-icon">
+</head>
+<body>
+    <div class="cadastro-container">
+        <h2>Cadastre-se</h2>
+        <form action="cadastro.php" method="POST">
+            <input type="text" class="input-field" placeholder="Nome Completo" name="fullname" required>
+            <input type="email" class="input-field" placeholder="E-mail" name="email" required>
+            <input type="text" class="input-field" placeholder="Nome de Usuário" name="username" required>
+            <input type="password" class="input-field" placeholder="Senha" name="password" required>
+            <button type="submit" class="btn-cadastro">Cadastrar</button>
+        </form>
+        <p>Já tem uma conta? <a href="login.html">Faça login aqui</a></p>
+        <p><a href="index.html" class="btn-voltar">Voltar para a página inicial</a></p>
+    </div>
+    
+</body>
+</html>

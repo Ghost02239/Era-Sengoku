@@ -1,0 +1,117 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c; 
+    color: #e5e5e5; 
+}
+
+header {
+    background-color: #622525;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    z-index: 1000;
+    margin: 0;
+}
+
+.logo img {
+    max-height: 160px;
+    width: auto;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    margin: 20px 0 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #e5e5e5; 
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #622525;
+    color: #622525;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif; 
+    color: #ca0202; 
+    border-bottom: 2px solid #b22222;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+#meuRetangulo {
+    background-color: #262626;
+    margin: 20px;
+    padding: 20px;
+    background-color: #333; 
+    border-radius: 5px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+}
+
+#amgfilme {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 20px right;
+    margin-right: 10px;
+}
+
+.content-container {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.text-content {
+    max-width: 600px;
+    color: #e5e5e5;
+    margin-right: 30px;
+}
+
+#tell {
+    display: flex;
+    align-items: flex-start;
+}
+
+#ooooooh {
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#ooooooh:hover {
+    background-color: #b22222;
+}

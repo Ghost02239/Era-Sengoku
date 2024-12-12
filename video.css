@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c; 
+    color: #e5e5e5; 
+}
+
+section {
+    background-color: #262626;
+    margin: 20px;
+    padding: 20px;
+    background-color: #333; 
+    border-radius: 5px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.2); /* Corrigido */
+}
+
+#ohmeudeus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
